@@ -1,0 +1,22 @@
+.white{
+    background-color: #f0d9b5;
+    height: 100px;
+    width: 100px;
+}
+.black{
+    background-color: #b58863;
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    width: 760px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
